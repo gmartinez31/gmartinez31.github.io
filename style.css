@@ -1,0 +1,65 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: right;
+    margin: 0px;
+    padding: 10px;
+    color: #DADADA;
+    font-size: 3em;
+}
+
+div.header > h2{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    color: #DADADA;
+    font-size: 2em;
+}
+
+div.header {
+    background-image: url("http://www.wallpapermade.com/images/wallpapers/originals/city-under-the-fog-mountains-at-sunrise-wallpaper-5284.jpg");
+    background-size: cover;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 250px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #002938;
+}
+
+li {
+    display: inline;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+li a {
+    display: inline;
+    color: #DADADA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+}
+
+div.section {
+   border: 2.5px #002938 solid;
+   height: auto;
+   width: 50%;
+   padding: 10px;
+   margin: auto;
+   text-align: center;
+}
