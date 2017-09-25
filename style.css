@@ -12,6 +12,14 @@ h1 {
     font-size: 3em;
 }
 
+div.header {
+    background-color: maroon;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+}
+
 div.header > h2{
     text-align: right;
     margin: 0px;
@@ -20,33 +28,28 @@ div.header > h2{
     font-size: 2em;
 }
 
-div.header {
-    background-image: url("http://www.wallpapermade.com/images/wallpapers/originals/city-under-the-fog-mountains-at-sunrise-wallpaper-5284.jpg");
-    background-size: cover;
-    border: 0;
-    margin: 0;
-    padding: 0;
-    height: 250px;
+body {
+    background-image: url('https://i.pinimg.com/originals/26/ba/d0/26bad0644328e982a91c0eb164318535.jpg')
 }
 
-ul{
-    list-style-type: none;
+div.flex {
+    display: flex;
+    flex-flow: column no wrap;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
     margin: 0;
-    padding: 10px;
-    overflow: hidden;
+    padding: 15px;
     background-color: #002938;
-}
-
-li {
-    display: inline;
-    padding-left: 100px;
-    padding-right: 100px;
+    list-style-type: none;
 }
 
 li a {
     display: inline;
     color: #DADADA;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -56,10 +59,14 @@ li a:hover {
 }
 
 div.section {
-   border: 2.5px #002938 solid;
-   height: auto;
-   width: 50%;
-   padding: 10px;
-   margin: auto;
-   text-align: center;
+    display: flex;
+    border: 4px #002938 solid;
+    justify-content: center;
+    width: 30%;
+    align-content: center;
+    margin-top: 10%;
+    margin-left: 35%;
+    background-color: lightgray;
+    padding: 15px;
+    font-size: 17px;
 }
